@@ -1,0 +1,49 @@
+<% layout('layouts/boilerplate') %>
+<div class="row">
+    <h1 class="text-center">New MyDesteny</h1>
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow">
+            <div class="card-body">
+        <form action="/campgrounds" method="POST"  class="needs-validation" novalidate enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label" for="title">Title</label>
+                <input class="form-control" type="text" id="title" name="campground[title]" required>
+            </div>
+
+         
+            <!-- <div class="mb-3">
+                <label class="form-label" for="image">Image url</label>
+                <input class="form-control" type="text" id="image" name="campground[image]" required>
+            </div> -->
+          <div class="mb-3">
+              <label class="form-label" for="price">My Desteny</label>
+            <div class="input-group">
+                <span class="input-group-text" id="price-label">Rs</span>
+                <input type="text" class="form-control" placeholder="0.00" aria-label="price"
+                 aria-describedby="price-label" name="campground[price]" required>
+              </div>
+          </div>
+            <div class="mb-3">
+                <label class="form-label" for="location">Location</label>
+                <input class="form-control" type="text" id="location" name="campground[location]" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="description">description</label>
+                <textarea class="form-control" type="text" id="description" name="campground[description]" required></textarea>
+            </div>
+
+            <div class="mb-2">
+                <label for="imagee" class="form-label"></label>
+                <input class="form-control" type="file" id="imagee" name="imagee" multiple>
+            </div>
+           
+            <div class="mb-1">
+                <button class="btn btn-success">Add My Desteny</button>
+            </div>
+        </form>
+        <a href="/campgrounds">All Campgrounds</a>
+    </div>
+</div>
+</div>
+</div>
+    

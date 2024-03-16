@@ -1,0 +1,29 @@
+.backgroundss{
+    background-color: #271e3c;
+    color: aliceblue;
+}   
+.mapp{
+    border-radius: 2%;
+    margin-left: 5rem;
+    border: 2px ;
+    
+}
+#cluster{
+    border-radius: 2px;
+}
+.edit{
+    color: rgb(7, 7, 7);
+}
+.cards{
+    background-color: rgb(179, 202, 202);
+    
+}
+.rev{
+    margin: 10px;
+}
+.reviwee{
+    color: black;
+}
+.rounded{
+    padding-top: 10px;
+}
